@@ -76,7 +76,7 @@ public class Client {
 		
 		////////////////////////////////////////////
 		// println 만들기
-		/*
+        	
 		OutputStream pos = System.out; // System.out.println() 대신 작성하는법.
 		OutputStreamWriter posw = new OutputStreamWriter(pos); // (pos, "UTF-8") 작성시 한글이 적용안됨? UTF-8 대신 (pos) 만 작성
 		BufferedWriter pbw = new BufferedWriter(posw);
@@ -84,7 +84,7 @@ public class Client {
 		pbw.write("pritnln 테스트");
 		pbw.newLine();
 		pbw.flush();
-		*/
+		
 		
 		//닫기 
 		sc.close();
